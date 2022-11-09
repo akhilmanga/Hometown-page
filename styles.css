@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    background: skyblue;
+    border: 4px solid blue;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    background: skyblue;
+    border: 4px solid blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    background: skyblue;
+    border: 3px solid blue;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+#header {
+    background-image: url("images/hyderabad.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle-part {
+    background-image: url("images/middle-image.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    font-size: 50px;
+    border: 4px solid blue;
+}
+
+.avatar {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;        
+    background-color: lightskyblue;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+
+.border-blue {
+    border: 1px blue;
+}
+
